@@ -3,6 +3,8 @@ Custom emojis for OSRS.
 
 **The filename will become the emoji. For example, `woow.png` means `woow` in-game will show `woow.png`.**
 
+After copying new emojis, the client must restart to apply. 
+
 Type `!emojifolder` in-game chat to open the emoji folder. Otherwise, the folder is located at `.runelite/emoji`
 
 ![explorer_2024-10-01_12-22-51](https://github.com/user-attachments/assets/6c35eb1f-0621-41d3-9f02-40e59343a6a7)
