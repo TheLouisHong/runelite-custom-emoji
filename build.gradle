@@ -30,8 +30,8 @@ dependencies {
     testImplementation 'com.google.inject.extensions:guice-testlib:4.1.0'
 }
 
-group = 'com.example'
-version = '1.0-SNAPSHOT'
+group = 'com.customemoji'
+version = '1.0'
 
 tasks.withType(JavaCompile) {
 	options.encoding = 'UTF-8'

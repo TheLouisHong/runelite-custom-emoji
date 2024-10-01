@@ -9,6 +9,15 @@ import net.runelite.client.config.Range;
 public interface CustomEmojiConfig extends Config
 {
 	@ConfigItem(
+			keyName = "instructions",
+			name = "Instructions",
+			description = "Link to instruction"
+	)
+	default String __instructions() {
+		return "https://github.com/TheLouisHong/runelite-custom-emoji/blob/master/README.md";
+	}
+
+	@ConfigItem(
 		keyName = "volume",
 		name = "Soundoji Volume",
 		description = "Volume of soundojis. [0-100]"
