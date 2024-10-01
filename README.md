@@ -7,7 +7,7 @@ Type `!emojifolder` in-game chat to open the emoji folder. Otherwise, the folder
 
 ![explorer_2024-10-01_12-22-51](https://github.com/user-attachments/assets/6c35eb1f-0621-41d3-9f02-40e59343a6a7)
 
-## Image Must Can Only Contain 255 Colors (highly recommend PNG)
+## Image Must Only Contain 255 Colors (highly recommend PNG)
 For images that contain more than 255 colors (most images), this website can convert images to 255 colors.
 
 https://rilden.github.io/tiledpalettequant/<br>
