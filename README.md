@@ -22,3 +22,6 @@ Type `!soundojifolder` in-game chat to open the soundoji folder. Otherwise, the 
 File format must be `.wav`. 
 
 **The filename will become the soundoji. For example, `pipe.wav` means `pipe` in-game will play `pipe.wav`.**
+
+# If emoji failed to load
+Type `!emojierror` in game to see the errors. If you need help, feel free to leave a ticket here https://github.com/TheLouisHong/runelite-custom-emoji/issues/new
