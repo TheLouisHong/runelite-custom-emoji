@@ -17,7 +17,7 @@ https://rilden.github.io/tiledpalettequant/<br>
 
 # Sound Emojis (Soundoji)
 
-Type `!soundoji` in-game chat to open the soundoji folder. Otherwise, the folder is located at `.runelite/soundoji`
+Type `!soundojifolder` in-game chat to open the soundoji folder. Otherwise, the folder is located at `.runelite/soundoji`
 
 File format must be `.wav`. 
 
