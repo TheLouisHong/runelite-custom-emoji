@@ -15,6 +15,7 @@ For images that contain more than 255 colors (most images), this website can con
 https://rilden.github.io/tiledpalettequant/<br>
 (this website is not endorsed or related to this project, runescape, or runelite. Just the best I found on Google.)
 
+Make sure to right-click save the image (left click saves as BMP file).
 ![image](https://github.com/user-attachments/assets/234e2c82-faee-40c3-982b-8d27f64a466f)
 
 # Sound Emojis (Soundoji)
