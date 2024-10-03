@@ -12,6 +12,14 @@ Type `!emojifolder` in-game chat to open the emoji folder. Otherwise, the folder
 ## Image Must Only Contain 255 Colors (highly recommend PNG)
 For images that contain more than 255 colors (most images), this website can convert images to 255 colors.
 
+### Using PhotoShop Color Quantizer
+
+![image](https://github.com/user-attachments/assets/8781ad77-f7fe-4613-82d2-5563b3937aa4)
+
+![image](https://github.com/user-attachments/assets/e02b76d4-378a-48bc-9dfd-aab06c17b6d7)
+
+
+### Using Online Color Quantizer
 https://rilden.github.io/tiledpalettequant/<br>
 (this website is not endorsed or related to this project, runescape, or runelite. Just the best I found on Google.)
 
