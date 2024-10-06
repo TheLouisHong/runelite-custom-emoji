@@ -1,6 +1,10 @@
 # 🔥 Custom Emoji
 Custom emojis for OSRS. 
 
+Download pre-made emojis Here (plugin does not come with built-in emojis)<br>
+https://github.com/TheLouisHong/custom-emoji-repository/
+
+## Custom Emoji
 **The filename will become the emoji. For example, `woow.png` means `woow` in-game will show `woow.png`.**
 
 After copying new emojis, the client must restart to apply. 
@@ -26,7 +30,7 @@ https://rilden.github.io/tiledpalettequant/<br>
 Make sure to right-click save the image (left click saves as BMP file).
 ![image](https://github.com/user-attachments/assets/234e2c82-faee-40c3-982b-8d27f64a466f)
 
-# Sound Emojis (Soundoji)
+## Custom Sound Emojis (Soundoji)
 
 Type `!soundojifolder` in-game chat to open the soundoji folder. Otherwise, the folder is located at `.runelite/soundoji`
 
