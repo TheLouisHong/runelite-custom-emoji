@@ -200,7 +200,8 @@ public class CustomEmojiPlugin extends Plugin
 		{
 			clientThread.invoke(() ->
 			{
-				client.addChatMessage(ChatMessageType.CONSOLE, "", "<col=00FF00>Custom Emoji: Loaded " + emojis.size() + soundojis.size() + " emojis and soundojis.", null);
+				client.addChatMessage(ChatMessageType.CONSOLE, "",
+						"<col=00FF00>Custom Emoji: Loaded " + emojis.size() + soundojis.size() + " emojis and soundojis.", null);
 			});
 		}
 	}
@@ -288,7 +289,8 @@ public class CustomEmojiPlugin extends Plugin
 
 			if (soundoji != null)
 			{
-				if (sound) {
+				if (sound)
+				{
 					soundoji.clip.setFramePosition(0);
 					soundoji.clip.loop(0);
 					FloatControl control = (FloatControl) soundoji.clip.getControl(FloatControl.Type.MASTER_GAIN);
@@ -509,9 +511,17 @@ public class CustomEmojiPlugin extends Plugin
 
 		if (image.isOk())
 		{
-			int id = chatIconManager.registerChatIcon(image.unwrap());
-			String text = file.getName().substring(0, extension).toLowerCase();
-			return Ok(new Emoji(id, text, file));
+			try
+			{
+				int id = chatIconManager.registerChatIcon(image.unwrap());
+				String text = file.getName().substring(0, extension).toLowerCase();
+				return Ok(new Emoji(id, text, file));
+			} catch (RuntimeException e)
+			{
+				return Error(new RuntimeException(
+						"<col=FF0000>" + file.getName() + "</col> failed because <col=FF0000>" + e.getMessage(),
+						e));
+			}
 		}
 		else
 		{
