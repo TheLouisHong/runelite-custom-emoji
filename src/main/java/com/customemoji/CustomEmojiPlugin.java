@@ -211,6 +211,7 @@ public class CustomEmojiPlugin extends Plugin
 	{
 		chatCommandManager.unregisterCommand(EMOJI_FOLDER_COMMAND);
 		chatCommandManager.unregisterCommand(SOUNDOJI_FOLDER_COMMAND);
+		chatCommandManager.unregisterCommand(EMOJI_ERROR_COMMAND);
 	}
 
 
